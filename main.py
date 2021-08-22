@@ -24,6 +24,7 @@ def path_reset(grid, progress, result):
     for row in grid:
         for tile in row:
             if tile.check_color() == BLUE or tile.check_color() == RED:
+                tile.neighbors.clear()
                 continue
             tile.change_color(WHITE)
             tile.neighbors.clear()
@@ -34,6 +35,7 @@ def point_reset(grid, progress, start_pos, end_pos, result):
     for row in grid:
         for tile in row:
             if tile.check_color() == BLACK:
+                tile.neighbors.clear()
                 continue
             tile.change_color(WHITE)
             tile.neighbors.clear()
@@ -46,6 +48,7 @@ def search_again(grid, progress, result):
     for row in grid:
         for tile in row:
             if tile.check_color() == BLACK or tile.check_color() == BLUE or tile.check_color() == RED:
+                tile.neighbors.clear()
                 continue
             tile.change_color(WHITE)
             tile.neighbors.clear()

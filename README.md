@@ -12,7 +12,7 @@ Blue = end point
 
 Black = obstacle/path
 
-Left click once for red, twice for black and the rest will be black tiles
+Left click once for red, twice for blue and the rest will be black tiles
 
 Right click deletes tiles back to white. If any start or end point gets deleted, then it needs to be set back using the left click again which will take priority over the black obstacles
 

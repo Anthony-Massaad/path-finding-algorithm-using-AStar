@@ -1,24 +1,45 @@
-# path-finding-algorithm-using-AStar
+# Path Finding Algorithm GUI
 
-# Desciption
+<p align="center">
+  <h3>Sample Image Without Diagonal</h3>
+  <img src="https://user-images.githubusercontent.com/62800170/154750048-17e03662-36f1-4ee5-8d0d-01e7c0b8b6ab.png" width="40%"/>
+  <h3>Sample Image With Diagonal</h3>
+  <img src="https://user-images.githubusercontent.com/62800170/154750190-deee4413-c914-4063-92b4-6b489fc4328b.png" width="40%"/>
+</p>
 
-Algorithm display using A* algorithm and pygame. Additional feature is diagonal checking if button is clicked for faster and more effecient path finding.
+## Short Desciption
 
-# Instuctions 
+This is a path finding algorithm using A-star algorithm to get from points Red to Blue, which uses pygame as the main GUI builder. 
 
-Red = start point
+## Requirements
+
+```pip install pygame```
+
+## Instuctions 
+
+The first Left click will place a red marker on the screen. The second left click will place a blue marker on the screen. Lastly, the rest of the left clicks will place black markers on the screen. To erase any marker, simply right click on the marker to delete it. 
+
+If either the red or blue marker is not placed or deleted, the algorithm will not start unless they are located onto the map. These markers will take priority over the black markers.
+
+## Each Marker Indication
+
+Red maker = start point
 
 Blue = end point
 
 Black = obstacle/path
 
-Left click once for red, twice for blue and the rest will be black tiles
+## Side Buttons Located On The Right Description
 
-Right click deletes tiles back to white. If any start or end point gets deleted, then it needs to be set back using the left click again which will take priority over the black obstacles
+- "Reset" will reset the entire map
+- "Path Reset" will reset the obstacles (black markers)
+- "Points Reset" will reset the start and end points (red and blue markers)
+- "Re-Search" will allow you to reset the search with everything in place
+- "+ Diagonal" will enable the diagonal search feature for a quicker search (Active = green, otherwise grey)
 
-# Buttons on the far right description
+## Author
 
-There is a button to reset the map, button to reset the points and obstacle path, and there is a button to reset the search if you feel to do the search again.
+Anthony Massaad
 
-There is button that adds a diagonal feature, that turns green if it's on, otherwise grey
+Copyright @ 2021. All rights reserved
 

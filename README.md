@@ -1,15 +1,15 @@
 # Path Finding Algorithm GUI
 
+## Short Desciption
+
+This is a path finding algorithm using A-star algorithm to get from points Red to Blue, which uses pygame as the main GUI builder. 
+
 <p align="center">
   <h3>Sample Image Without Diagonal</h3>
   <img src="https://user-images.githubusercontent.com/62800170/154750048-17e03662-36f1-4ee5-8d0d-01e7c0b8b6ab.png" width="40%"/>
   <h3>Sample Image With Diagonal</h3>
   <img src="https://user-images.githubusercontent.com/62800170/154750190-deee4413-c914-4063-92b4-6b489fc4328b.png" width="40%"/>
 </p>
-
-## Short Desciption
-
-This is a path finding algorithm using A-star algorithm to get from points Red to Blue, which uses pygame as the main GUI builder. 
 
 ## Requirements
 
